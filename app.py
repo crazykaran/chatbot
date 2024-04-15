@@ -9,12 +9,12 @@ app = Flask(__name__)
 # Initialize Firebase Admin SDK
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    "apiKey": "AIzaSyC4NZ8f5Vrimtr_uYojAn4Lp-SgHLJR4_g",
-    "authDomain": "gfg-chatbot.firebaseapp.com",
-    "projectId": "gfg-chatbot",
-    "storageBucket": "gfg-chatbot.appspot.com",
-    "messagingSenderId": "749869035042",
-    "appId": "1:749869035042:web:ca1c41919ec3bc7c7e247b"
+    "apiKey": "",
+    "authDomain": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": ""
 })
 db = firestore.client()
 variable=1
