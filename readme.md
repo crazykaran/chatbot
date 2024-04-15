@@ -32,9 +32,9 @@ cd chatbot
 ```
 
 ### Create an environment
-Whatever you prefer (e.g. `conda` or `venv`)
 ```console
-python3 -m venv venv
+pip install virtualenv
+virtualenv venv
 ```
 
 ### Activate it
@@ -60,6 +60,7 @@ $ python
 >>> import nltk
 >>> nltk.download('punkt')
 ```
+![Alt text](static/images/punkt.png)
 ### Setup firebase
 - Create a Firebase project and initialize storage and database.
 - Generate a service account key and save it as `serviceAccountKey.json`.

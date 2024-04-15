@@ -32,7 +32,7 @@ class Chatbox {
 
         this.state = false;
         this.faq = false;
-        this.messages = [{ name: "Sam", message: "How may I help you!!" }];
+        this.messages = [{ name: "Sam", message: "How may I help you!! Press 'quit' to exit." }];
     }
 
     display() {

@@ -9,12 +9,12 @@ app = Flask(__name__)
 # Initialize Firebase Admin SDK
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    "apiKey": "",
-    "authDomain": "",
-    "projectId": "",
-    "storageBucket": "",
-    "messagingSenderId": "",
-    "appId": ""
+    "apiKey": "AIzaSyC4NZ8f5Vrimtr_uYojAn4Lp-SgHLJR4_g",
+    "authDomain": "gfg-chatbot.firebaseapp.com",
+    "projectId": "gfg-chatbot",
+    "storageBucket": "gfg-chatbot.appspot.com",
+    "messagingSenderId": "749869035042",
+    "appId": "1:749869035042:web:ca1c41919ec3bc7c7e247b"
 })
 db = firestore.client()
 variable=1
@@ -73,5 +73,7 @@ def get_csv_files():
 def login():
     return render_template("login.html")
 
+
+#commented for deployment purpose
 if __name__=='__main__':
-    # app.run(debug=True)
+    app.run(debug=True)
