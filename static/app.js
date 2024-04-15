@@ -108,7 +108,8 @@ class Chatbox {
 
         // check if question is a FAQ
         if (this.faqs[text1] === undefined) {
-            fetch('http://127.0.0.1:5000/predict', {
+            // link to run in localHost : http://127.0.0.1:5000/predict
+            fetch('https://chatbot-flask-2ylb.onrender.com/predict', {
                 method: 'POST',
                 body: JSON.stringify({ message: text1 }),
                 mode: 'cors',
