@@ -77,6 +77,12 @@ python app.py
 ```
 This will start a flask website
 
+### Login Credentials:
+
+username : admin
+
+password : admin@123
+
 ## Images
 
 ### chatbot
