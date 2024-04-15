@@ -1,0 +1,26 @@
+{
+    "python":{
+        "name":"Python Programming",
+        "time":"40 hours",
+        "mentor":"Dr. Suraj Mishra",
+        "cost":"3500 INR"
+    },
+    "ml":{
+        "name":"Machine Learning",
+        "time":"60 hours",
+        "mentor":"Mr. Ram Raman",
+        "cost":"5500 INR"
+    },
+    "web":{
+        "name":"Web Development",
+        "time":"100 hours",
+        "mentor":"Dr. Pooja Dikshit",
+        "cost":"3500 INR"
+    },
+    "blockchain":{
+        "name":"Blockchain Development",
+        "time":"50 hours",
+        "mentor":"Dr. Virat Sharma",
+        "cost":"3500 INR"
+    }
+}
